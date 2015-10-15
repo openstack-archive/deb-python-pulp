@@ -18,7 +18,7 @@ Package: python-pulp
 Architecture: all
 Depends: ${python:Depends}, ${misc:Depends}
 Description: an LP modeler - Python 2.7
- PuLP is an LP modeler written in python. PuLP can generate MPS or LP files
+ PuLP is an LP modeler written in Python. PuLP can generate MPS or LP files
  and call GLPK[1], COIN CLP/CBC[2], CPLEX[3], and GUROBI[4] to solve linear
  problems.
  .
@@ -28,7 +28,7 @@ Package: python3-pulp
 Architecture: all
 Depends: ${python3:Depends}, ${misc:Depends}
 Description: an LP modeler - Python 3.x
- PuLP is an LP modeler written in python. PuLP can generate MPS or LP files
+ PuLP is an LP modeler written in Python. PuLP can generate MPS or LP files
  and call GLPK[1], COIN CLP/CBC[2], CPLEX[3], and GUROBI[4] to solve linear
  problems.
  .
