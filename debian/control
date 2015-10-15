@@ -23,7 +23,7 @@ Depends: coinor-cbc,
          python-pyparsing,
          ${misc:Depends},
          ${python:Depends},
-Description: an LP modeler - Python 2.7
+Description: LP modeler - Python 2.7
  PuLP is an LP modeler written in Python. PuLP can generate MPS or LP files
  and call GLPK, COIN CLP/CBC, CPLEX, and GUROBI[4] to solve linear problems.
  .
@@ -35,7 +35,7 @@ Depends: coinor-cbc,
          python3-pyparsing,
          ${misc:Depends},
          ${python3:Depends},
-Description: an LP modeler - Python 3.x
+Description: LP modeler - Python 3.x
  PuLP is an LP modeler written in Python. PuLP can generate MPS or LP files
  and call GLPK, COIN CLP/CBC, CPLEX, and GUROBI to solve linear problems.
  .
