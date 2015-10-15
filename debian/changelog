@@ -1,0 +1,5 @@
+python-pulp (1.6.0-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #801842)
+
+ -- Thomas Goirand <zigo@debian.org>  Thu, 15 Oct 2015 09:21:46 +0200

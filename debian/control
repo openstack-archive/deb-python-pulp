@@ -1,0 +1,35 @@
+Source: python-pulp
+Section: python
+Priority: optional
+Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python-setuptools,
+               python-all,
+               python3-setuptools,
+               python3-all
+Standards-Version: 3.9.6
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-pulp.git
+Vcs-Git: git://anonscm.debian.org/openstack/python-pulp.git
+Homepage: https://github.com/coin-or/pulp
+
+Package: python-pulp
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Description: an LP modeler - Python 2.7
+ PuLP is an LP modeler written in python. PuLP can generate MPS or LP files
+ and call GLPK[1], COIN CLP/CBC[2], CPLEX[3], and GUROBI[4] to solve linear
+ problems.
+ .
+ This package contains the Python 2.7 module.
+
+Package: python3-pulp
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: an LP modeler - Python 3.x
+ PuLP is an LP modeler written in python. PuLP can generate MPS or LP files
+ and call GLPK[1], COIN CLP/CBC[2], CPLEX[3], and GUROBI[4] to solve linear
+ problems.
+ .
+ This package contains the Python 3.x module.
