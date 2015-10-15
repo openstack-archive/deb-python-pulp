@@ -1,1 +1,2 @@
 fix-pyparsing-requirement.patch
+do-not-package-non-free-files.patch
