@@ -9,6 +9,7 @@ Build-Depends: debhelper (>= 9),
                python-all,
                python3-setuptools,
                python3-all
+Build-Depends-Indep: python-pyparsing, python3-pyparsing
 Standards-Version: 3.9.6
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-pulp.git
 Vcs-Git: git://anonscm.debian.org/openstack/python-pulp.git
