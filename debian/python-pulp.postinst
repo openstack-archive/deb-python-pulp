@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = "configure" ] ; then
+	update-alternatives --install /usr/bin/pulpdoctest pulpdoctest /usr/bin/python2-pulpdoctest 300
+	update-alternatives --install /usr/bin/pulptest pulptest /usr/bin/python2-pulptest 300
+fi
+
+#DEBHELPER#
+
+exit 0

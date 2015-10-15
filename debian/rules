@@ -19,6 +19,10 @@ override_dh_auto_install:
 			--root $(CURDIR)/debian/python3-pulp; \
 	done
 	rm -rf $(CURDIR)/debian/python*-pulp/usr/lib/python*/dist-packages/*.pth
+	mv $(CURDIR)/debian/python-pulp/usr/bin/pulpdoctest $(CURDIR)/debian/python-pulp/usr/bin/python2-pulpdoctest
+	mv $(CURDIR)/debian/python3-pulp/usr/bin/pulpdoctest $(CURDIR)/debian/python3-pulp/usr/bin/python3-pulpdoctest
+	mv $(CURDIR)/debian/python-pulp/usr/bin/pulptest $(CURDIR)/debian/python-pulp/usr/bin/python2-pulptest
+	mv $(CURDIR)/debian/python3-pulp/usr/bin/pulptest $(CURDIR)/debian/python3-pulp/usr/bin/python3-pulptest
 
 override_dh_auto_test:
 ifeq (,$(findstring nocheck, $(DEB_BUILD_OPTIONS)))

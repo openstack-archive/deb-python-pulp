@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = "remove" ] ; then
+	update-alternatives --remove pulpdoctest /usr/bin/python2-pulpdoctest
+	update-alternatives --remove pulptest /usr/bin/python2-pulptest
+fi
+
+#DEBHELPER#
+
+exit 0
