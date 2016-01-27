@@ -2,14 +2,37 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: PuLP
 Source: https://github.com/coin-or/pulp
 
-Files: debian/*
-Copyright: (c) 2015, Thomas Goirand <zigo@debian.org>
-License: Expat
-
 Files: *
 Copyright: (c) 2013, Stuart Anthony Mitchell <pulp@stuartmitchell.com>
            (c) 2002-2013, Jean-Sebastien Roy <js@jeannot.org>
 License: Expat
+
+Files: debian/*
+Copyright: (c) 2015, Thomas Goirand <zigo@debian.org>
+License: Expat
+
+Files: bootstrap.py
+Copyright: (c) 2006 Zope Corporation and Contributors.
+License: zope
+
+Files: doc/source/*
+Copyright: (c) 2013, Stuart Anthony Mitchell <pulp@stuartmitchell.com>    
+           (c) 2002-2013, Jean-Sebastien Roy <js@jeannot.org>
+License: CC-BY-SA-3.0-NZ
+
+Files: doc/KPyCon2009/IEEEtran.bst
+Copyright: (c) 2003, Michael Shell
+License: Perl-Artistic-License
+
+Files: doc/KPyCon2009/IEEEtran.bst doc/KPyCon2009/arlimsTPPM.cls
+ doc/KPyCon2009/arlims.cls doc/KPyCon2009/arlimsTPPSC.cls
+ doc/KPyCon2009/PulpForPythonProgrammers.pdf doc/KPyCon2009/arlimsTPP.cls
+Copyright: (c) 2003, Michael Shell
+           (c) 1993-2004, The LaTeX3 Project
+           (c) Heath James <h.a.james@massey.ac.nz>
+           (c) Guy Kloss <g.kloss@massey.ac.nz>
+           (c) Paul Cowpertwait <p.s.cowpertwait@massey.ac.nz>
+License: LaTeX-Project-Public-License
 
 License: Expat
  Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -29,3 +52,583 @@ License: Expat
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
+
+License: Perl-Artistic-License
+ This code is offered as-is without any warranty either expressed or implied;
+ without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ PARTICULAR PURPOSE! User assumes all risk.
+ .
+ In no event shall IEEE or any contributor to this code be liable for any
+ damages or losses, including, but not limited to, incidental, consequential,
+ or any other damages, resulting from the use or misuse of any information
+ contained here.
+ .
+ This code is distributed under the Perl Artistic License and may be freely
+ used, distributed and modified - subject to the constraints therein. Retain
+ all contribution notices, credits and disclaimers.
+ .
+ All comments are the opinions of their respective authors and are not
+ necessarily endorsed by the IEEE.
+ .
+ In Debian system, a copy of the Artistic license is available at:
+ /usr/share/common-licenses/Artistic
+
+License: zope
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+  1. Redistributions in source code must retain the accompanying copyright
+     notice, this list of conditions, and the following disclaimer.
+ .
+  2. Redistributions in binary form must reproduce the accompanying copyright
+     notice, this list of conditions, and the following disclaimer in the
+     documentation and/or other materials provided with the distribution.
+ .
+  3. Names of the copyright holders must not be used to endorse or promote
+     products derived from this software without prior written permission from
+     the copyright holders.
+ .
+  4. The right to distribute this software or to use it for any purpose does
+     not give you the right to use Servicemarks (sm) or Trademarks (tm) of the
+     copyright holders. Use of them is covered by separate agreement with the
+     copyright holders.
+ .
+  5. If any files are modified, you must cause the modified files to carry
+     prominent notices stating that you changed the files and the date of any
+     change.
+ .
+ Disclaimer
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS "AS IS" AND ANY EXPRESSED
+ OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+ EVENT SHALL THE COPYRIGHT HOLDERS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: CC-BY-SA-3.0-NZ
+ Attribution-ShareAlike 3.0 New Zealand (CC BY-SA 3.0 NZ)
+
+ THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS CREATIVE
+ COMMONS PUBLIC LICENCE ("CCPL" OR "LICENCE"). THE WORK IS PROTECTED BY
+ COPYRIGHT AND/OR OTHER APPLICABLE LAW. ANY USE OF THE WORK OTHER THAN AS
+ AUTHORISED UNDER THIS LICENCE OR COPYRIGHT LAW IS PROHIBITED. BY EXERCISING
+ ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE TO BE BOUND BY
+ THE TERMS OF THIS LICENCE. THE LICENSOR GRANTS YOU THE RIGHTS CONTAINED HERE
+ IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS AND CONDITIONS.
+ .
+ This Creative Commons New Zealand Public Licence enables You (all capitalised
+ terms defined below) to view, edit, modify, translate and distribute Works
+ worldwide, under the terms of this licence, provided that You credit the
+ Original Author.
+ .
+ "The Licensor" and "You" agree as follows:
+ .
+ 1. Definitions
+ .
+ "Adaptation" means any work created by the editing, modification, adaptation
+ or translation of the Work in any media (however a work that constitutes a
+ Collection will not be considered an Adaptation for the purpose of this
+ Licence). For the avoidance of doubt, where the Work is a musical composition
+ or sound recording, the synchronisation of the Work in timed-relation with a
+ moving image ("synching") will be considered an Adaptation for the purpose of
+ this Licence.
+ .
+ "Applicable Licence" means one of the licences described in clause 2.3(a), (b)
+ or (c).
+ .
+ "Attribution" means acknowledging all the parties who have contributed to and
+ have rights in the Work or Collection under this Licence; and "Attribute" has
+ a corresponding meaning.
+ .
+ "Collection" means the Work in its entirety in unmodified form along with one
+ or more other separate and independent works, assembled into a collective
+ whole.
+ .
+ "Creative Commons Compatible Licence" means a license that is listed at
+ https://creativecommons.org/compatiblelicenses that has been approved by
+ Creative Commons as being essentially equivalent to this Licence, including,
+ at a minimum, because that licence: (i) contains terms that have the same
+ purpose, meaning and effect as the Licence Elements of this Licence; and,
+ (ii) explicitly permits the relicensing of adaptations of works made available
+ under that licence under this Licence or a Creative Commons jurisdiction
+ license with the same Licence Elements as this Licence.
+ .
+ "Licence" means this Creative Commons New Zealand Public Licence agreement.
+ .
+ "Licence Elements" means the following high-level licence attributes indicated
+ in the title of this Licence: Attribution, Share-Alike.
+ .
+ "Licensor" means one or more legally recognised persons or entities offering
+ the Work under the terms and conditions of this Licence.
+ .
+ "Original Author" means the individual(s) or entity/ies who created the Work.
+ .
+ "Work" means the work protected by copyright which is offered under the terms
+ of this Licence.
+ .
+ "You" means an individual or entity exercising rights under this Licence who
+ has not previously violated the terms of this Licence with respect to the
+ Work, or who has received express permission from the Licensor to exercise
+ rights under this Licence despite a previous violation.
+ .
+ For the purpose of this Licence, when not inconsistent with the context, words
+ in the singular number include the plural number.
+ .
+ 2. Licence Terms
+ 2.1 Subject to the terms of this agreement the Licensor hereby grants to You a
+ worldwide, royalty-free, non-exclusive, Licence for use and for the duration
+ of copyright in the Work. You may:
+ .
+ copy the Work;
+ .
+ create one or more Adaptations. You must take reasonable steps to ensure any
+ Adaptation clearly identifies that changes were made to the original Work;
+ .
+ incorporate the Work into one or more Collections;
+ .
+ copy Adaptations or the Work as incorporated in any Collection; and
+ .
+ publish, distribute, archive, perform or otherwise disseminate the Work, the
+ Adaptation or the Work as incorporated in any Collection, to the public.
+ .
+ All these rights may be exercised in any material form in any media whether
+ now known or hereafter created. All these rights also include the right to
+ make such modifications as are technically necessary to exercise the rights in
+ other media and formats.
+ .
+ HOWEVER,
+ You must not:
+ .
+ impose any terms on the use to be made of the Work, the Adaptation or the Work
+ as incorporated in a Collection that alter or restrict the terms of this
+ Licence or the Applicable Licence, as applicable, or any rights granted under
+ it or have the effect or intent of restricting the ability to exercise those
+ rights;
+ .
+ impose any digital rights management technology on the Work, the Adaptation or
+ the Work as incorporated in a Collection that alters or restricts the terms of
+ this Licence or any rights granted under it or has the effect or intent of
+ restricting the ability to exercise those rights;
+ .
+ sublicense the Work;
+ .
+ falsely Attribute the Work to someone other than the Original Author;
+ .
+ subject the Work to any derogatory treatment as defined in the Copyright Act
+ 1994 provided that if the Licensor is the Original Author the Licensor will
+ not enforce this sub-clause to the extent necessary to enable You to
+ reasonably exercise Your right under clause 2.1 to make Adaptations but not
+ otherwise.
+ .
+ FINALLY,
+ You must:
+ .
+ make reference to this Licence or the Applicable Licence, as applicable, (by
+ Uniform Resource Identifier (URI), spoken word or as appropriate to the media
+ used) on all copies of the Work, Adaptations and Collections published,
+ distributed, performed or otherwise disseminated or made available to the
+ public by You;
+ .
+ recognise the Licensor’s / Original Author’s right of Attribution (right to be
+ identified) in any Work, Adaptation and Collection that You publish,
+ distribute, perform or otherwise disseminate to the public and ensure that You
+ credit the Licensor / Original Author as appropriate to the media used. You
+ will however remove such a credit if requested by the Licensor/Original Author;
+ .
+ not assert or imply any connection with sponsorship or endorsement by the
+ Original Author or Licensor of You or Your use of the Work, without the
+ separate, express prior written permission of the Original Author or Licensor;
+ and to the extent reasonably practicable, keep intact all notices that refer
+ to this Licence, in particular the URI, if any, that the Licensor specifies to
+ be associated with the Work, unless such URI does not refer to the copyright
+ notice or licensing information for the Work.
+ .
+ Additional Provisions
+ 2.2. Further licence from the Licensor
+ Each time You publish, distribute, perform or otherwise disseminate
+    the Work; or
+    any Adaptation; or
+    the Work as incorporated in a Collection
+ .
+ the Licensor agrees to offer to the relevant third party making use of the
+ Work ("User") (in any of the alternatives set out above) a licence to use the
+ Work on the same terms and conditions as granted to You hereunder.
+ .
+ 2.3. Further licence from You
+ Each time You publish, distribute, perform or otherwise disseminate
+    an Adaptation; or
+    an Adaptation as incorporated in a Collection
+ .
+ You agree to offer to the User (in either of the alternatives set out above) a
+ licence to use the Adaptation on any of the following premises and to comply
+ with such licence:
+ .
+    a licence to the Adaptation on the same terms and conditions as the licence
+    granted to You hereunder; or
+ .
+    a later version of the licence granted to You hereunder with the same
+    Licence Elements; or
+ .
+    any other Creative Commons licence (whether the Unported or a jurisdiction
+    licence) with the same Licence Elements.
+ .
+    a Creative Commons Compatible Licence.
+ .
+ 2.4. This Licence does not affect any rights that the User may have under any
+ applicable law, including fair use, fair dealing or any other legally
+ recognised limitation or exception to copyright infringement.
+ .
+ 2.5. All rights not expressly granted by the Licensor are hereby reserved.
+ .
+ 2.6. The Licensor waives the right to collect royalties, whether individually
+ or via a licensing body such as a collecting society, for any exercise by You
+ of the rights granted under this Licence.
+ .
+ 2.7. If the Licensor is the Original Author the Licensor waives its moral
+ right to object to derogatory treatments of the Work to the extent necessary
+ to enable You to reasonably exercise Your right under this Licence to make
+ Adaptations but not otherwise. If the Licensor is not the Original Author the
+ Work will still be subject to the moral rights of the Original Author.
+ .
+ 3. Warranties and Disclaimer
+ Except as required by law or as otherwise agreed in writing between the
+ parties, the Work is licensed by the Licensor on an "as is" and "as available"
+ basis and without any warranty of any kind, either express or implied.
+ .
+ 4. Limit of Liability
+ Subject to any liability which may not be excluded or limited by law the
+ Licensor shall not be liable on any legal basis (including without limitation
+ negligence) and hereby expressly excludes all liability for loss or damage
+ howsoever and whenever caused to You.
+ .
+ 5. Termination
+ The rights granted to You under this Licence shall terminate automatically
+ upon any breach by You of the terms of this Licence. Individuals or entities
+ who have received Adaptations or Collections from You under this Licence,
+ however, will not have their Licences terminated provided such individuals or
+ entities remain in full compliance with those Licences. Clauses 1, 3, 4, 5 and
+ 6 will survive any termination of this Licence.
+ .
+ 6. General
+ 6.1. The validity or enforceability of the remaining terms of this agreement
+ is not affected by the holding of any provision of it to be invalid or
+ unenforceable.
+ .
+ 6.2. This Licence constitutes the entire Licence Agreement between the parties
+ with respect to the Work licensed here. There are no understandings,
+ agreements or representations with respect to the Work not specified here. The
+ Licensor shall not be bound by any additional provisions that may appear in
+ any communication in any form.
+ .
+ 6.3. A person who is not a party to this Licence shall have no rights under
+ the Contracts (Privity) Act 1982 to enforce any of its terms.
+ .
+ 7. On the role of Creative Commons
+ 7.1. Creative Commons does not authorise either the Licensor or the User to
+ use the trade mark “Creative Commons” or any related trade mark, including the
+ Creative Commons logo, except to indicate that the Work is licensed under a
+ Creative Commons Licence. Any permitted use has to be in compliance with the
+ Creative Commons trade mark usage guidelines at the time of use of the
+ Creative Commons trade mark. These guidelines may be found on the Creative
+ Commons website or be otherwise available upon request from time to time. For
+ the avoidance of doubt this trade mark restriction does not form part of this
+ Licence.
+ .
+ 7.2. Creative Commons Corporation does not profit financially from its role in
+ providing this Licence and will not investigate the claims of any Licensor or
+ user of the Licence.
+ .
+ 7.3. One of the conditions that Creative Commons Corporation requires of the
+ Licensor and You is an acknowledgement of its limited role and agreement by
+ all who use the Licence that the Corporation is not responsible to anyone for
+ the statements and actions of You or the Licensor or anyone else attempting to
+ use or using this Licence.
+ .
+ 7.4. Creative Commons Corporation is not a party to this Licence, and makes no
+ warranty whatsoever in connection to the Work or in connection to the Licence,
+ and in all events is not liable for any loss or damage resulting from the
+ Licensor's or Your reliance on this Licence or on its enforceability.
+ .
+ 7.5. USE OF THIS LICENCE MEANS THAT YOU AND THE LICENSOR EACH ACCEPTS THESE
+ CONDITIONS IN SECTION 7.1, 7.2, 7.3, 7.4 AND EACH ACKNOWLEDGES CREATIVE
+ COMMONS CORPORATION'S VERY LIMITED ROLE AS A FACILITATOR OF THE LICENCE FROM
+ THE LICENSOR TO YOU.
+
+License: LaTeX-Project-Public-License
+ The LaTeX Project Public License
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ .
+ LPPL Version 1.3c  2008-05-04
+ .
+ PREAMBLE
+ .
+ The LaTeX Project Public License (LPPL) is the primary license under which the
+ LaTeX kernel and the base LaTeX packages are distributed.
+ .
+ You may use this license for any work of which you hold the copyright and
+ which you wish to distribute.  This license may be particularly suitable if
+ your work is TeX-related (such as a LaTeX package), but it is written in such
+ a way that you can use it even if your work is unrelated to TeX.
+ .
+ The section 'WHETHER AND HOW TO DISTRIBUTE WORKS UNDER THIS LICENSE', below,
+ gives instructions, examples, and recommendations for authors who are
+ considering distributing their works under this license.
+ .
+ This license gives conditions under which a work may be distributed and
+ modified, as well as conditions under which modified versions of that work may
+ be distributed.
+ .
+ We, the LaTeX3 Project, believe that the conditions below give you the freedom
+ to make and distribute modified versions of your work that conform with
+ whatever technical specifications you wish while maintaining the availability,
+ integrity, and reliability of that work.  If you do not see how to achieve
+ your goal while meeting these conditions, then read the document
+ 'cfgguide.tex' and 'modguide.tex' in the base LaTeX distribution for
+ suggestions.
+ .
+ DEFINITIONS
+ .
+ In this license document the following terms are used:
+ .
+   'Work'
+    Any work being distributed under this License.
+ .
+   'Derived Work'
+    Any work that under any applicable law is derived from the Work.
+ .
+   'Modification' 
+    Any procedure that produces a Derived Work under any applicable
+    law -- for example, the production of a file containing an
+    original file associated with the Work or a significant portion of
+    such a file, either verbatim or with modifications and/or
+    translated into another language.
+ .
+   'Modify'
+    To apply any procedure that produces a Derived Work under any
+    applicable law.
+ .
+   'Distribution'
+    Making copies of the Work available from one person to another, in
+    whole or in part.  Distribution includes (but is not limited to)
+    making any electronic components of the Work accessible by
+    file transfer protocols such as FTP or HTTP or by shared file
+    systems such as Sun's Network File System (NFS).
+ .
+   'Compiled Work'
+    A version of the Work that has been processed into a form where it
+    is directly usable on a computer system.  This processing may
+    include using installation facilities provided by the Work,
+    transformations of the Work, copying of components of the Work, or
+    other activities.  Note that modification of any installation
+    facilities provided by the Work constitutes modification of the Work.
+ .
+   'Current Maintainer'
+    A person or persons nominated as such within the Work.  If there is
+    no such explicit nomination then it is the `Copyright Holder' under
+    any applicable law.
+ .
+   'Base Interpreter' 
+    A program or process that is normally needed for running or
+    interpreting a part or the whole of the Work.    
+ .
+    A Base Interpreter may depend on external components but these
+    are not considered part of the Base Interpreter provided that each
+    external component clearly identifies itself whenever it is used
+    interactively.  Unless explicitly specified when applying the
+    license to the Work, the only applicable Base Interpreter is a
+    'LaTeX-Format' or in the case of files belonging to the 
+    'LaTeX-format' a program implementing the 'TeX language'.
+ .
+ CONDITIONS ON DISTRIBUTION AND MODIFICATION
+ .
+ 1.  Activities other than distribution and/or modification of the Work are not
+ covered by this license; they are outside its scope. In particular, the act of
+ running the Work is not restricted and no requirements are made concerning any
+ offers of support for the Work.
+ .
+ 2.  You may distribute a complete, unmodified copy of the Work as you received
+ it.  Distribution of only part of the Work is considered modification of the
+ Work, and no right to distribute such a Derived Work may be assumed under the
+ terms of this clause.
+ .
+ 3.  You may distribute a Compiled Work that has been generated from a
+ complete, unmodified copy of the Work as distributed under Clause 2 above, as
+ long as that Compiled Work is distributed in such a way that the recipients
+ may install the Compiled Work on their system exactly as it would have been
+ installed if they generated a Compiled Work directly from the Work.
+ .
+ 4.  If you are the Current Maintainer of the Work, you may, without
+ restriction, modify the Work, thus creating a Derived Work.  You may also
+ distribute the Derived Work without restriction, including Compiled Works
+ generated from the Derived Work.  Derived Works distributed in this manner by
+ the Current Maintainer are considered to be updated versions of the Work.
+ .
+ 5.  If you are not the Current Maintainer of the Work, you may modify your
+ copy of the Work, thus creating a Derived Work based on the Work, and compile
+ this Derived Work, thus creating a Compiled Work based on the Derived Work.
+ .
+ 6.  If you are not the Current Maintainer of the Work, you may distribute a
+ Derived Work provided the following conditions are met for every component of
+ the Work unless that component clearly states in the copyright notice that it
+ is exempt from that condition.  Only the Current Maintainer is allowed to add
+ such statements of exemption to a component of the Work. 
+ .
+  a. If a component of this Derived Work can be a direct replacement
+     for a component of the Work when that component is used with the
+     Base Interpreter, then, wherever this component of the Work
+     identifies itself to the user when used interactively with that
+     Base Interpreter, the replacement component of this Derived Work
+     clearly and unambiguously identifies itself as a modified version
+     of this component to the user when used interactively with that
+     Base Interpreter.
+ .     
+  b. Every component of the Derived Work contains prominent notices
+     detailing the nature of the changes to that component, or a
+     prominent reference to another file that is distributed as part
+     of the Derived Work and that contains a complete and accurate log
+     of the changes.
+ .
+  c. No information in the Derived Work implies that any persons,
+     including (but not limited to) the authors of the original version
+     of the Work, provide any support, including (but not limited to)
+     the reporting and handling of errors, to recipients of the
+     Derived Work unless those persons have stated explicitly that
+     they do provide such support for the Derived Work.
+ .
+  d. You distribute at least one of the following with the Derived Work:
+ .
+       1. A complete, unmodified copy of the Work; 
+          if your distribution of a modified component is made by
+          offering access to copy the modified component from a
+          designated place, then offering equivalent access to copy
+          the Work from the same or some similar place meets this
+          condition, even though third parties are not compelled to
+          copy the Work along with the modified component;
+ .
+       2. Information that is sufficient to obtain a complete,
+          unmodified copy of the Work.
+ .
+ 7.  If you are not the Current Maintainer of the Work, you may distribute a
+ Compiled Work generated from a Derived Work, as long as the Derived Work is
+ distributed to all recipients of the Compiled Work, and as long as the
+ conditions of Clause 6, above, are met with regard to the Derived Work.
+ .
+ 8.  The conditions above are not intended to prohibit, and hence do not apply
+ to, the modification, by any method, of any component so that it becomes
+ identical to an updated version of that component of the Work as it is
+ distributed by the Current Maintainer under Clause 4, above.
+ .
+ 9.  Distribution of the Work or any Derived Work in an alternative format,
+ where the Work or that Derived Work (in whole or in part) is then produced by
+ applying some process to that format, does not relax or nullify any sections
+ of this license as they pertain to the results of applying that process.
+ .
+ 10. a. A Derived Work may be distributed under a different license
+        provided that license itself honors the conditions listed in
+        Clause 6 above, in regard to the Work, though it does not have
+        to honor the rest of the conditions in this license.
+ .
+     b. If a Derived Work is distributed under a different license, that
+        Derived Work must provide sufficient documentation as part of
+        itself to allow each recipient of that Derived Work to honor the 
+        restrictions in Clause 6 above, concerning changes from the Work.
+ .
+ 11. This license places no restrictions on works that are unrelated to the
+ Work, nor does this license place any restrictions on aggregating such works
+ with the Work by any means.
+ .
+ 12.  Nothing in this license is intended to, or may be used to, prevent
+ complete compliance by all parties with all applicable laws.
+ .
+ NO WARRANTY
+ .
+ There is no warranty for the Work.  Except when otherwise stated in writing,
+ the Copyright Holder provides the Work `as is', without warranty of any kind,
+ either expressed or implied, including, but not limited to, the implied
+ warranties of merchantability and fitness for a particular purpose.  The
+ entire risk as to the quality and performance of the Work is with you.  Should
+ the Work prove defective, you assume the cost of all necessary servicing,
+ repair, or correction.
+ .
+ In no event unless required by applicable law or agreed to in writing will The
+ Copyright Holder, or any author named in the components of the Work, or any
+ other party who may distribute and/or modify the Work as permitted above, be
+ liable to you for damages, including any general, special, incidental or
+ consequential damages arising out of any use of the Work or out of inability
+ to use the Work (including, but not limited to, loss of data, data being
+ rendered inaccurate, or losses sustained by anyone as a result of any failure
+ of the Work to operate with any other programs), even if the Copyright Holder
+ or said author or said other party has been advised of the possibility of such
+ damages.
+ .
+ MAINTENANCE OF THE WORK
+ .
+ The Work has the status 'author-maintained' if the Copyright Holder explicitly
+ and prominently states near the primary copyright notice in the Work that the
+ Work can only be maintained by the Copyright Holder or simply that it is
+ 'author-maintained'.
+ .
+ The Work has the status `maintained' if there is a Current Maintainer who has
+ indicated in the Work that they are willing to receive error reports for the
+ Work (for example, by supplying a valid e-mail address). It is not required
+ for the Current Maintainer to acknowledge or act upon these error reports.
+ .
+ The Work changes from status `maintained' to `unmaintained' if there is no
+ Current Maintainer, or the person stated to be Current Maintainer of the work
+ cannot be reached through the indicated means of communication for a period of
+ six months, and there are no other significant signs of active maintenance.
+ .
+ You can become the Current Maintainer of the Work by agreement with any
+ existing Current Maintainer to take over this role.
+ .
+ If the Work is unmaintained, you can become the Current Maintainer of the Work
+ through the following steps:
+ .
+ 1.  Make a reasonable attempt to trace the Current Maintainer (and
+     the Copyright Holder, if the two differ) through the means of
+     an Internet or similar search.
+ .
+ 2.  If this search is successful, then enquire whether the Work
+     is still maintained.
+ .
+  a. If it is being maintained, then ask the Current Maintainer
+     to update their communication data within one month.
+ .
+  b. If the search is unsuccessful or no action to resume active
+     maintenance is taken by the Current Maintainer, then announce
+     within the pertinent community your intention to take over
+     maintenance.  (If the Work is a LaTeX work, this could be
+     done, for example, by posting to comp.text.tex.)
+ .
+ 3a. If the Current Maintainer is reachable and agrees to pass
+     maintenance of the Work to you, then this takes effect
+     immediately upon announcement.
+ .
+  b. If the Current Maintainer is not reachable and the Copyright
+     Holder agrees that maintenance of the Work be passed to you,
+     then this takes effect immediately upon announcement.  
+ .
+ 4.  If you make an `intention announcement' as described in 2b. above
+     and after three months your intention is challenged neither by
+     the Current Maintainer nor by the Copyright Holder nor by other
+     people, then you may arrange for the Work to be changed so as
+     to name you as the (new) Current Maintainer.
+ .
+ 5.  If the previously unreachable Current Maintainer becomes
+     reachable once more within three months of a change completed
+     under the terms of 3b) or 4), then that Current Maintainer must
+     become or remain the Current Maintainer upon request provided
+     they then update their communication data within one month.
+ .
+ A change in the Current Maintainer does not, of itself, alter the fact that
+ the Work is distributed under the LPPL license.
+ .
+ If you become the Current Maintainer of the Work, you should immediately
+ provide, within the Work, a prominent and unambiguous statement of your status
+ as Current Maintainer.  You should also announce your new status to the same
+ pertinent community as in 2b) above.
