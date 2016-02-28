@@ -1,3 +1,9 @@
+python-pulp (1.6.0+dfsg1-2) UNRELEASED; urgency=medium
+
+  * Fixed VCS URLs (https).
+
+ -- Ondřej Nový <novy@ondrej.org>  Sun, 28 Feb 2016 15:47:10 +0100
+
 python-pulp (1.6.0+dfsg1-1) unstable; urgency=medium
 
   * Initial release. (Closes: #801842)
