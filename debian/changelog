@@ -4,6 +4,7 @@ python-pulp (1.6.0+dfsg1-2) UNRELEASED; urgency=medium
   * d/rules: Changed UPSTREAM_GIT protocol to https
   * d/s/options: extend-diff-ignore of .gitreview
   * d/control: Using OpenStack's Gerrit as VCS URLs.
+  * Bumped debhelper compat version to 10
 
  -- Ondřej Nový <novy@ondrej.org>  Sun, 28 Feb 2016 15:47:10 +0100
 
